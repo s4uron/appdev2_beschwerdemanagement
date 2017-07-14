@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package appdev2_beschwerdemanagement;
 
 import java.rmi.RemoteException;
@@ -12,10 +7,6 @@ import java.util.ArrayList;
 import java.sql.Timestamp;
 import java.util.Random;
 
-/**
- *
- * @author Jan
- */
 public class Beschwerdemanagement extends UnicastRemoteObject implements BeschwerdemanagementInterface {
     private ArrayList<Kunde> kunden = new ArrayList();
     private ArrayList<Mitarbeiter> mitarbeiter = new ArrayList();
